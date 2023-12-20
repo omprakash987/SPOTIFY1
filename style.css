@@ -1,0 +1,137 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+     
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+    color: white;
+
+}
+
+nav ul li{
+    padding:0 12px ;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 24px; 
+    background-image:url('music-player-2951399_1280.webp') ;
+
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+    flex-direction: column;
+   
+}
+
+
+.icons{
+    margin:14px 0;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+
+}
+
+
+.songItem{
+height: 84px;
+display: flex;
+background-color: white;
+width: 70%;
+color:black; 
+margin: 12px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 34px;
+
+}
+
+.songItem img{
+    width: 65px;
+    margin:0 23px; 
+    border-radius: 34px;
+    
+
+}
+
+.timestamp{
+    margin: 0 10px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+     transition: opacity 0.4s ease-in;
+   position: absolute; 
+   left: 10vw;
+   width: 60px;
+   margin: -30px;
+
+
+}
+
+.songItemPlay{
+    cursor: pointer;
+}
+
+
+.songItemContainer{
+    height: 25rem;
+    width: 30rem;
+    overflow: auto;
+}
